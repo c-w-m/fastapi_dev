@@ -1,0 +1,13 @@
+# user devcontainer convenience
+#`pip freeze` version when not locked
+#-------------------------------------------------
+
+# ~~~~~~~ fastapi_dev ~~~~~~~
+fastapi[all]    # same as installing 'fastapi' and 'uvicorn'
+httpx
+httpx[cli]
+
+# ~~~~~~~ vscode extensions support ~~~~~~~
+rich~=12.2.0
+
+#-------------------------------------------------
